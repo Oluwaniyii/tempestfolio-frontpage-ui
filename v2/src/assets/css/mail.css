@@ -1,0 +1,63 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,500;1,600;1,800&display=swap");
+
+:root {
+  --font-primary: "Poppins", sans-serif;
+  --txt-cl-primary: #494949;
+  --m-cl-blue: #63b5d8;
+  --m-cl-pink: #e46060;
+  --m-cl-green: #89e49d;
+  --m-cl-dark: #585757;
+  --m-cl-yellow: #f4d153;
+}
+
+div {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+/* Overide default app shit */
+.app-theme-white.app-container {
+  background: #f1f4f6;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.mail-row {
+  width: 100%;
+  display: flex;
+  background: none;
+  /* padding: 20px 20px; */
+  box-sizing: border-box;
+}
+
+.mail-row > div {
+  background: #fff;
+}
+
+.mail-row .mail-list-area {
+  border: 1px solid rgba(0, 0, 0, 0.131);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-right: none;
+  flex: 2;
+  height: calc(100vh - 60px - 40px);
+  overflow-y: scroll;
+}
+.mail-row .mail-view-area {
+  flex: 3;
+  border: 1px solid rgba(0, 0, 0, 0.131);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+}
+
+/* Media query */
+@media screen and (max-width: 720px) {
+}

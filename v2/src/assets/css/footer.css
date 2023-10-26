@@ -1,0 +1,10 @@
+/** @format */
+
+.footer {
+  padding: 30px 0;
+  position: relative;
+  background: #e3eef8;
+  color: #adb5bd;
+  background-color: var(--cl-secondary);
+  text-align: center;
+}
