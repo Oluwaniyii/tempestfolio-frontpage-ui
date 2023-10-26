@@ -24,11 +24,18 @@
     <link rel="stylesheet" href="./assets/css/contact.css" />
     <link rel="stylesheet" href="./assets/css/social.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/animation/animations.css" />
+    <link rel="stylesheet" href="./assets/css/animation/index-srinit.css" />
     <!-- Animation css -->
     <link
       rel="stylesheet"
       href="./assets/css/animation/animation_override.css"
     />
+
+
+  <script src="./assets/js/lbt_scrollReveal.js"></script>
+  <script src="./assets/js/scrollreveal.js"></script>
+
   </head>
   <!-- BODY -->
   <body onresize="resizeMedia()">
@@ -59,15 +66,14 @@
     <!-- Hero Start -->
     <section
       id="hero"
-      style="
-        background-image: url('https://ik.imagekit.io/zzajmh3pzny/static-ui-assests/portfolio-frontpage/call-of-duty-modern-warfare_lKGqZ4rw0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651426070940');
-      "
+      style=""
     >
-      <div class="background" style=""></div>
+      <div class="background" style="background-image: url('https://ik.imagekit.io/zzajmh3pzny/static-ui-assests/portfolio-frontpage/call-of-duty-modern-warfare_lKGqZ4rw0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651426070940');"></div>
       <div class="overlay"></div>
       <div class="container">
         <div class="content">
-          <div class="profile-image"></div>
+          <div class="profile-image" style="background-image:url('https://ik.imagekit.io/zzajmh3pzny/static-ui-assests/portfolio-frontpage/call-of-duty-modern-warfare_lKGqZ4rw0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651426070940')">
+          </div>
           <h1 class="heading text-white">Hi, I am Oluwaniyii Ayodele</h1>
           <h6 class="designation text-white">
             I'm a Passionate <span class="text-primary">Web Developer</span>
@@ -137,11 +143,10 @@
                   I am a <span class="text-primary">Node JS</span> Developer
                 </div>
                 <div class="content">
-                  Obviously I'm a Web Designer. Web Developer with over 3 years
-                  of experience. Experienced with all stages of the development
-                  cycle for dynamic web projects. The as opposed to using
-                  'Content here, content here', making it look like readable
-                  English.
+                  With 3 years of experience in Node JS and PHP. I specialize in
+                  designing and building robust api's for web, mobile and
+                  desktop applications. I am currently open to remote fulltime
+                  or partime jobs with an option to relocate.
                 </div>
                 <!-- signature -->
                 <h1 class="signature">Oluwaniyii Ayodele</h1>
@@ -159,8 +164,7 @@
           <div class="section-heading">
             <div class="title text-lg text-dark">Awesome Service</div>
             <div class="comment text-sm text-secondary">
-              Obviously I'm a Web Designer. Experienced with all stages of the
-              development cycle for dynamic web projects.
+              Below are list of services I render as a freelancer
             </div>
           </div>
 
@@ -278,11 +282,13 @@
           <div class="section-heading f-left">
             <div class="title text-lg text-dark">Work Participation</div>
             <div class="comment text-sm text-secondary">
-              Obviously I'm a Web Designer. Experienced with all stages of the
-              development cycle for dynamic web projects.
+              I'm happy to walk you through some of the exciting journeys I've
+              embarked on as a software developer :)
             </div>
             <div class="link-button">
-              <a href="#" class="btn btn-lg btn-primary mt-2">See More</a>
+              <spam class="btn btn-primary mt-2">
+                <i class="fa fa-arrow-right"></i>
+              </span>
             </div>
           </div>
 
@@ -399,15 +405,15 @@
             <div class="left">
               <div
                 class="background-holder"
-                style="background-image: url('./assets/images/skills.jpg')"
+                style="background-image: url('https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/vm6petunbtmfmoicyf52')
+                "
               ></div>
             </div>
             <div class="right">
               <div class="section-heading">
                 <div class="title text-lg text-dark">Work Expertise</div>
                 <div class="comment text-sm text-secondary">
-                  Obviously I'm a Web Designer. Experienced with all stages of
-                  the development cycle for dynamic web projects.
+                 This are my top tier skills I use from time to time as an engineer
                 </div>
               </div>
               <div class="skillsets">
@@ -492,8 +498,7 @@
           <div class="section-heading">
             <div class="title text-lg text-dark">My Recent Works</div>
             <div class="comment text-sm text-secondary">
-              Obviously I'm a Web Designer. Experienced with all stages of the
-              development cycle for dynamic web projects.
+             Take insigthful look on interesting projects I've worked on. Challenges, solution and future plans
             </div>
           </div>
           <div class="portfolio-board">
@@ -582,9 +587,6 @@
               </div>
             </div>
           </div>
-          <div class="see-more">
-            <a href="#" class="btn btn-primary">See More </a>
-          </div>
         </div>
       </section>
       <!-- My works End -->
@@ -656,8 +658,7 @@
           <div class="section-heading">
             <div class="title text-lg text-dark">Latest News & Blog</div>
             <div class="comment text-sm text-secondary">
-              Obviously I'm a Web Designer. Experienced with all stages of the
-              development cycle for dynamic web projects.
+             Here are some of my insightful blogs on node and php related topic. Enjoy!
             </div>
           </div>
           <div class="blogs-board">
@@ -733,8 +734,7 @@
           <div class="section-heading">
             <div class="title text-lg text-dark">Contact Me</div>
             <div class="comment text-sm text-secondary">
-              Obviously I'm a Web Designer. Experienced with all stages of the
-              development cycle for dynamic web projects.
+             Contact me for fulltime or partime jobs, freelancing or project collabration. I reply in a flash 
             </div>
           </div>
 
@@ -760,14 +760,6 @@
                 transformative community
               </span>
               <span class="main copy-to-clipboard">contact@example.com</span>
-            </div>
-            <div class="location">
-              <span class="icon"> <i class="fas fa-map-marker-alt"></i> </span>
-              <span class="font-600 text-md text-dark mb-1">Location</span>
-              <span class="text-secondary">
-                C/54 Northwest Freeway, Suite 558, Houston, USA 485
-              </span>
-              <span class="main copy-to-clipboard"> View on Google map </span>
             </div>
           </div>
 
@@ -802,9 +794,7 @@
         <div class="section-heading">
           <h2 class="text-lg font-600 mb-1">Niyii</h2>
           <p class="text-dark mb-1">
-            Obviously I'm a Web Designer. Experienced with all stages of the
-            development cycle for dynamic web projects.
-          </p>
+          Connect with me on any of these platforms and lets discuss :)
         </div>
         <div class="links">
           <a href="#">
@@ -877,7 +867,7 @@
     <!-- Back-to-top End -->
 
     <!-- Footer Start -->
-    <footer class="footer">© 2021 Queue. Design by Zoyothemes</footer>
+    <footer class="footer">© longbotton dev 2021. Design idea by <a href="https://themeforest.net/item/queue-personal-portfolio-resume-template/27561447" style="color:inherit;">Zoyothemes</a></footer>
     <!-- Footer End -->
 
     <!-- script -->

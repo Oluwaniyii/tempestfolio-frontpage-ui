@@ -30,6 +30,7 @@ section#my-works .slot {
 	/* width: 200px;
 	height:200px; */
 	position: relative;
+	background-color: var(--cl-primary);
 	background-size: 100% 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -141,7 +142,7 @@ section#my-works .see-more .btn {
 }
 @media screen and (min-width: 1024px) {
 	section#my-works .portfolio-board {
-		-ms-grid-columns: (minmax(250px, 400px)) [3];
+		-ms-grid-columns: (minmax(250px, 400px));
 		grid-template-columns: repeat(3, minmax(250px, 400px));
 	}
 }

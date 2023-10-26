@@ -19,8 +19,6 @@ section#hero div.background {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	animation: slide 05s 1s ease-in-out forwards infinite;
-	/* z-index: 10; */
 }
 
 /* style="background-image: url('./assets/images/hero-bg.jpg')"  */

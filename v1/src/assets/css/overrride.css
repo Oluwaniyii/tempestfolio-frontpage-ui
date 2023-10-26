@@ -1,0 +1,6 @@
+section:nth-child(even){
+    background: var(--cl-light) !important;
+}
+section:nth-child(odd){
+    background: var(--cl-white) !important;
+}
