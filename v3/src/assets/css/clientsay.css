@@ -1,0 +1,71 @@
+/** @format */
+
+section#clients-say {
+  background: var(--cl-white);
+  padding: 5em 0;
+  background: #000;
+  /* background: url(https://ik.imagekit.io/zzajmh3pzny/wallpaperflare-9_yOAXu3mKK.png?updatedAt=1697892781219); */
+  /* background-image: url(https://ik.imagekit.io/zzajmh3pzny/wallpaperflare-12_CiJWqDdEs.png?updatedAt=1697892768880); */
+  /* background-image: url(https://ik.imagekit.io/zzajmh3pzny/wallpaperflare-15_9-dNiAM_b.png?updatedAt=1697938060497); */
+  /* background-image: url(https://ik.imagekit.io/zzajmh3pzny/wallpaperflare-1_hJsOpBkKK.png?updatedAt=1697892773712); */
+  /* background-image: url(https://ik.imagekit.io/zzajmh3pzny/wallpaperflare-15_9-dNiAM_b.png?updatedAt=1697938060497); */
+  /* background-image: url(https://ik.imagekit.io/zzajmh3pzny/wallpaperflare_YwPNXBVs6.png?updatedAt=1697942118683); */
+  background-image: url(https://ik.imagekit.io/zzajmh3pzny/wallpaperflare-1_xjhWMgNGw.png?updatedAt=1697942118556);
+  background-size: contain;
+  background-attachment: fixed;
+  /* background-color: rgba(95, 27, 27, 0.535); */
+}
+section#clients-say > * {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+section#clients-say .section-heading {
+  margin: 0 auto;
+  text-align: center;
+}
+
+section#clients-say .comments .carousel-container {
+  width: 100%;
+  padding: 0.5em;
+  overflow: hidden;
+}
+section#clients-say .comments .carousel-slider {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+section#clients-say .comments .comment {
+  margin: 1em;
+  padding: 1em;
+  display: inline-block;
+  min-width: 300px;
+  -webkit-box-shadow: 0 0 3px rgb(60 72 88 / 15%) !important;
+  box-shadow: 0 0 3px rgb(60 72 88 / 15%) !important;
+  border: none;
+  background: #101010;
+}
+section#clients-say .comments .comment .designation {
+  color: var(--cl-gray-dark);
+}
+
+.comment .comment-user-dp img {
+}
+
+.comment .comment-user-dp img {
+  width: 5rem;
+  height: 5rem;
+  -webkit-box-shadow: -0.0625rem 0 0.625rem 0 rgb(0 0 0 / 7%),
+    0.3125rem 1.25rem 2.5rem 0 rgb(0 0 0 / 4%) !important;
+  box-shadow: -0.0625rem 0 0.625rem 0 rgb(0 0 0 / 7%),
+    0.3125rem 1.25rem 2.5rem 0 rgb(0 0 0 / 4%) !important;
+  border-radius: 50%;
+}
